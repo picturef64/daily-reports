@@ -1,0 +1,45 @@
+!/bin/bash
+# Move to the project folder
+cd ~/stockMonitor
+
+# 1. Define filenames with today's date
+DATE=$(date +%F)
+REPORT_MD="morning_report_$DATE.md"
+REPORT_PDF="/home/neoone/Documents/Morning_Market_Report_$DATE.pdf"
+REPO_PATH="$HOME/daily-reports"
+
+# 2. Run Gemini Agent
+gemini --yolo -p "Search Google for today's top 10 stock market losers. Analyze 1-month charts for 'U-shaped' or 'Cup and Handle' patterns. List the Ticker, % drop, and status. Write it into $REPORT_MD"
+
+# 3. Convert to PDF
+pandoc "$REPORT_MD" -o "$REPORT_PDF" --pdf-engine=xelatex
+
+# 4. Get the best pick for the notification
+PICK=$(grep "U-Shaped" "$REPORT_MD" | head -n 1 | cut -d'|' -f2 | xargs)
+
+# 5. Send Notification
+if [ -z "$PICK" ]; then
+    notify-send -u critical -i office-chart "Stock Agent" "PDF Report is ready."
+else
+    notify-send -u critical -i office-chart "Stock Agent" "Top Pick: $PICK"
+fi
+
+# --- 6. SYNC TO GITHUB ---
+# Copy the dated PDF for your archives
+cp "$REPORT_PDF" "$REPO_PATH/"
+
+# ALSO copy it as the 'latest' version so the link stays the same
+cp "$REPORT_PDF" "$REPO_PATH/latest_report.pdf"
+
+# Move into the repo folder
+cd "$REPO_PATH"
+
+# Add all changes
+git add .
+
+# Commit with today's date
+git commit -m "Auto-upload report for $DATE"
+
+# Push to GitHub
+# (The first time you run this, enter your username and PASTE your Access Token)
+git push origin main

@@ -1,0 +1,128 @@
+file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/string-width/index.js:17
+const zeroWidthClusterRegex = /^(?:\p{Default_Ignorable_Code_Point}|\p{Control}|\p{Format}|\p{Mark}|\p{Surrogate})+$/v;
+                              ^
+
+SyntaxError: Invalid regular expression flags
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:152:18)
+    at ModuleLoader.moduleProvider (node:internal/modules/esm/loader:298:14)
+
+Node.js v18.19.1
+xelatex not found. Please select a different --pdf-engine or install xelatex -- see also /usr/share/doc/pandoc/README.Debian
+Failed to execute child process “dbus-launch” (No such file or directory)
+cp: cannot stat '/home/neoone/Documents/Morning_Market_Report_2026-03-04.pdf': No such file or directory
+cp: cannot stat '/home/neoone/Documents/Morning_Market_Report_2026-03-04.pdf': No such file or directory
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/string-width/index.js:17
+const zeroWidthClusterRegex = /^(?:\p{Default_Ignorable_Code_Point}|\p{Control}|\p{Format}|\p{Mark}|\p{Surrogate})+$/v;
+                              ^
+
+SyntaxError: Invalid regular expression flags
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:152:18)
+    at ModuleLoader.moduleProvider (node:internal/modules/esm/loader:298:14)
+
+Node.js v18.19.1
+xelatex not found. Please select a different --pdf-engine or install xelatex -- see also /usr/share/doc/pandoc/README.Debian
+cp: cannot stat '/home/neoone/Documents/Morning_Market_Report_2026-03-04.pdf': No such file or directory
+cp: cannot stat '/home/neoone/Documents/Morning_Market_Report_2026-03-04.pdf': No such file or directory
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/string-width/index.js:17
+const zeroWidthClusterRegex = /^(?:\p{Default_Ignorable_Code_Point}|\p{Control}|\p{Format}|\p{Mark}|\p{Surrogate})+$/v;
+                              ^
+
+SyntaxError: Invalid regular expression flags
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:152:18)
+    at ModuleLoader.moduleProvider (node:internal/modules/esm/loader:298:14)
+
+Node.js v18.19.1
+pandoc: morning_report_2026-03-05.md: withBinaryFile: does not exist (No such file or directory)
+grep: morning_report_2026-03-05.md: No such file or directory
+cp: cannot stat '/home/neoone/Documents/Morning_Market_Report_2026-03-05.pdf': No such file or directory
+cp: cannot stat '/home/neoone/Documents/Morning_Market_Report_2026-03-05.pdf': No such file or directory
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+dbus-daemon[42335]: [session uid=1000 pid=42335] Activating service name='org.freedesktop.secrets' requested by ':1.0' (uid=1000 pid=42338 comm="node --no-warnings=DEP0040 /usr/local/bin/gemini -" label="unconfined")
+GNOME_KEYRING_CONTROL=/home/neoone/.cache/keyring-6APRL3
+dbus-daemon[42335]: [session uid=1000 pid=42335] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[42335]: [session uid=1000 pid=42335] Activating service name='org.gnome.keyring.SystemPrompter' requested by ':1.1' (uid=1000 pid=42370 comm="/usr/bin/gnome-keyring-daemon --start --foreground" label="unconfined")
+dbus-daemon[42335]: [session uid=1000 pid=42335] Activating service name='org.gtk.vfs.Daemon' requested by ':1.2' (uid=1000 pid=42378 comm="/usr/libexec/gcr-prompter" label="unconfined")
+dbus-daemon[42335]: [session uid=1000 pid=42335] Successfully activated service 'org.gtk.vfs.Daemon'
+dbus-daemon[42335]: [session uid=1000 pid=42335] Successfully activated service 'org.gnome.keyring.SystemPrompter'
+Gcr-Message: 10:55:04.539: could not grab keyboard: already grabbed
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers to identify potential "U-shaped" or "Cup and Handle" patterns in their 1-month charts.
+I will analyze the 1-month chart patterns for each of the top 10 losers to identify any "U-shaped" or "Cup and Handle" formations.
+I will conduct a targeted search for "U-shaped" and "Cup and Handle" patterns for the identified top losers to ensure precise reporting.
+I will read the current content of `morning_report_2026-03-05.md` to ensure the new data is integrated correctly.
+I will update the `morning_report_2026-03-05.md` with the new findings and analysis.
+I have completed the analysis of today's top 10 stock market losers for March 5, 2026. I identified the following key patterns in their 1-month charts:
+
+*   **Cup and Handle (Emerging/Consolidating):** **NETWEB** (nearing breakout zone) and **KPITTECH** (forming a secondary handle).
+*   **U-shaped (Rounding Bottom):** **AEGISVOPAK** (stabilizing near 52-week low) and **RPOWER** (long-term multi-year base).
+*   **Bullish Reversals/Breakouts:** **OIL** (Inverted Head and Shoulders breakout) and **TECHM** (potential U-shaped rebound from extremely oversold levels).
+
+The `morning_report_2026-03-05.md` file has been updated with the full Ticker, % Drop, and Pattern Status list.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main e18392d] Auto-upload report for 2026-03-05
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+To https://github.com/picturef64/daily-reports.git
+   48c759b..e18392d  main -> main
+A connection to the bus can't be made
+dbus-daemon[46711]: [session uid=1000 pid=46711] Activating service name='org.freedesktop.secrets' requested by ':1.0' (uid=1000 pid=46715 comm="node --no-warnings=DEP0040 /usr/local/bin/gemini -" label="unconfined")
+GNOME_KEYRING_CONTROL=/home/neoone/.cache/keyring-COAVL3
+dbus-daemon[46711]: [session uid=1000 pid=46711] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[46711]: [session uid=1000 pid=46711] Activating service name='org.gnome.keyring.SystemPrompter' requested by ':1.1' (uid=1000 pid=46748 comm="/usr/bin/gnome-keyring-daemon --start --foreground" label="unconfined")
+dbus-daemon[46711]: [session uid=1000 pid=46711] Activating service name='org.gtk.vfs.Daemon' requested by ':1.2' (uid=1000 pid=46756 comm="/usr/libexec/gcr-prompter" label="unconfined")
+dbus-daemon[46711]: [session uid=1000 pid=46711] Successfully activated service 'org.gtk.vfs.Daemon'
+dbus-daemon[46711]: [session uid=1000 pid=46711] Successfully activated service 'org.gnome.keyring.SystemPrompter'
+Gcr-Message: 11:35:04.499: could not grab keyboard: already grabbed
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and analyze their 1-month charts for the requested patterns.
+I'll search for U.S. market losers from March 5, 2026, and look for technical analysis on the top 10 stocks overall to identify any "U-shaped" or "Cup and Handle" patterns.
+I'll search for 1-month chart patterns for the top 10 stock losers, specifically looking for "U-shaped" or "Cup and Handle" formations to include in the report.
+I have analyzed the top 10 stock market losers for March 5, 2026, and evaluated their 1-month chart patterns. I will now create the report file `morning_report_2026-03-05_11-35.md` with the ticker symbols, percentage drops, and technical status.
+I have completed the stock market analysis for March 5, 2026. The top 10 losers were identified, their 1-month charts analyzed for specific patterns (U-shaped/Cup and Handle), and the findings have been written to `morning_report_2026-03-05_11-35.md` as requested.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 9982abd] Auto-upload report: 2026-03-05_11-35
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Morning_Market_Report_2026-03-05_11-35.pdf
+To https://github.com/picturef64/daily-reports.git
+   e18392d..9982abd  main -> main
+A connection to the bus can't be made
+dbus-daemon[94456]: [session uid=1000 pid=94456] Activating service name='org.freedesktop.secrets' requested by ':1.0' (uid=1000 pid=94460 comm="node --no-warnings=DEP0040 /usr/local/bin/gemini -" label="unconfined")
+GNOME_KEYRING_CONTROL=/home/neoone/.cache/keyring-WU4HL3
+dbus-daemon[94456]: [session uid=1000 pid=94456] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[94456]: [session uid=1000 pid=94456] Activating service name='org.gnome.keyring.SystemPrompter' requested by ':1.1' (uid=1000 pid=94491 comm="/usr/bin/gnome-keyring-daemon --start --foreground" label="unconfined")
+dbus-daemon[94456]: [session uid=1000 pid=94456] Activating service name='org.gtk.vfs.Daemon' requested by ':1.2' (uid=1000 pid=94499 comm="/usr/libexec/gcr-prompter" label="unconfined")
+dbus-daemon[94456]: [session uid=1000 pid=94456] Successfully activated service 'org.gtk.vfs.Daemon'
+dbus-daemon[94456]: [session uid=1000 pid=94456] Successfully activated service 'org.gnome.keyring.SystemPrompter'
+Gcr-Message: 09:35:04.190: could not grab keyboard: already grabbed
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers as of March 6, 2026.
+I will analyze the 1-month price trends for these 10 stocks to identify "U-shaped" or "Cup and Handle" patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 4s.. Retrying after 5368ms...
+I have analyzed the top 10 stock market losers for March 6, 2026, and their respective 1-month chart patterns. I will now write the report to `morning_report_2026-03-06_09-35.md`.
+The report for today's top 10 stock market losers, including the 1-month chart analysis for "U-shaped" or "Cup and Handle" patterns, has been successfully written to `morning_report_2026-03-06_09-35.md`.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 501f90f] Auto-upload report: 2026-03-06_09-35
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Morning_Market_Report_2026-03-06_09-35.pdf
+To https://github.com/picturef64/daily-reports.git
+   9982abd..501f90f  main -> main
+A connection to the bus can't be made
