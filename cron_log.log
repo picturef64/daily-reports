@@ -256,3 +256,155 @@ Attempt 1 failed: You have exhausted your capacity on this model. Your quota wil
 I have gathered the top 10 stock market losers for March 16, 2026, and analyzed their 1-month chart patterns. I will now create the report.
 The top 10 stock market losers for March 16, 2026, have been identified, and their 1-month charts have been analyzed for 'U-shaped' and 'Cup and Handle' patterns. The analysis, including tickers, percentage drops, and technical statuses, has been compiled into the report: **`morning_report_2026-03-16_09-35.md`**.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 82d789e] Auto-Report 2026-03-16_09-35
+ 2 files changed, 39 insertions(+)
+ create mode 100644 morning_report_2026-03-16_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   8d5d192..82d789e  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and analyze their 1-month price trends for 'U-shaped' or 'Cup and Handle' patterns before generating the report.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 5s.. Retrying after 6202ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 0s.. Retrying after 5708ms...
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/usr/local/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/node_modules/gaxios/build/cjs/src/gaxios.js:155:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/usr/local/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:463:20)
+    at async CodeAssistServer.requestStreamingPost (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:176:21)
+    at async CodeAssistServer.generateContentStream (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:32:27)
+    at async file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:237:26
+    at async retryWithBackoff (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:128:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:445:32)
+    at async GeminiChat.streamWithRetries (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:265:40)
+    at async Turn.run (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:70:30) {
+  config: {
+    url: URL {
+      href: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      origin: 'https://cloudcode-pa.googleapis.com',
+      protocol: 'https:',
+      username: '',
+      password: '',
+      host: 'cloudcode-pa.googleapis.com',
+      hostname: 'cloudcode-pa.googleapis.com',
+      port: '',
+      pathname: '/v1internal:streamGenerateContent',
+      search: '?alt=sse',
+      searchParams: URLSearchParams { 'alt' => 'sse' },
+      hash: ''
+    },
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: Headers {
+      authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'content-type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.31.0/gemini-3-pro-preview (linux; x64) google-api-nodejs-client/10.6.1',
+      'x-goog-api-client': 'gl-node/24.14.0'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor],
+    duplex: 'half'
+  },
+  response: Response {
+    size: 0,
+    data: undefined,
+    config: {
+      url: URL {},
+      method: 'POST',
+      params: [Object],
+      headers: Headers {
+        authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+        'content-type': 'application/json',
+        'User-Agent': 'GeminiCLI/0.31.0/gemini-3-pro-preview (linux; x64) google-api-nodejs-client/10.6.1',
+        'x-goog-api-client': 'gl-node/24.14.0'
+      },
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor],
+      duplex: 'half'
+    },
+    Symbol(Body internals): {
+      body: [PassThrough],
+      stream: [PassThrough],
+      boundary: null,
+      disturbed: false,
+      error: null
+    },
+    Symbol(Response internals): {
+      type: 'default',
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      status: 429,
+      statusText: 'Too Many Requests',
+      headers: [Object],
+      counter: 0,
+      highWaterMark: 16384
+    }
+  },
+  code: 429,
+  status: 429,
+  error: undefined,
+  Symbol(gaxios-gaxios-error): '7.1.3',
+  [cause]: {
+    message: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    code: 429,
+    status: 'Too Many Requests'
+  }
+}
+I will search for technical analysis and price trends of these 10 stocks over the last month to identify any 'U-shaped' or 'Cup and Handle' patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5408ms...
+I will now generate the market report for March 17, 2026, at 09:35, listing the top 10 losers and their 1-month technical pattern status.
+The report for today's top 10 stock market losers and their 1-month technical chart patterns has been generated and saved to `morning_report_2026-03-17_09-35.md`.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
