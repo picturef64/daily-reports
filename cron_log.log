@@ -2203,3 +2203,109 @@ Attempt 1 failed: You have exhausted your capacity on this model. Your quota wil
 I will now generate the report for the top 10 stock market losers, focusing on the S&P 500 to ensure the technical analysis of 'U-shaped' and 'Cup and Handle' patterns is based on liquid and institutional-grade assets. This report will include the ticker, percentage drop, and a detailed status of their 1-month chart patterns.
 The top 10 stock market losers for March 20, 2026, have been analyzed, with a focus on institutional-grade stocks to provide meaningful technical analysis of 1-month chart patterns. The report, including tickers, percentage drops, and pattern statuses (identifying **GLW** and **CIEN** as 'Cup and Handle' candidates), has been successfully written to `morning_report_2026-03-21_09-35.md`.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 2e1da59] Auto-Report 2026-03-21_09-35
+ 2 files changed, 35 insertions(+)
+ create mode 100644 morning_report_2026-03-21_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   d9a5e20..2e1da59  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for the top 10 stock market losers from the most recent trading session and analyze their 1-month charts for specific technical patterns.
+I will search for the 1-month price trends and technical analysis for the identified top losers to determine if any show 'U-shaped' or 'Cup and Handle' patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 2s.. Retrying after 5979ms...
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: No capacity available for model gemini-3-flash-preview on the server
+    at Gaxios._request (/usr/local/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/node_modules/gaxios/build/cjs/src/gaxios.js:155:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/usr/local/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:463:20)
+    at async CodeAssistServer.requestPost (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:143:21)
+    at async CodeAssistServer.generateContent (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:53:26)
+    at async file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:196:34
+    at async retryWithBackoff (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:128:28)
+    at async GeminiClient.generateContent (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:687:28)
+    at async WebSearchToolInvocation.execute (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:28:30)
+    at async executeToolWithHooks (file:///usr/local/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:123:22) {
+  config: {
+    url: URL {
+      href: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+      origin: 'https://cloudcode-pa.googleapis.com',
+      protocol: 'https:',
+      username: '',
+      password: '',
+      host: 'cloudcode-pa.googleapis.com',
+      hostname: 'cloudcode-pa.googleapis.com',
+      port: '',
+      pathname: '/v1internal:generateContent',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    },
+    method: 'POST',
+    headers: Headers {
+      authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'content-type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.31.0/gemini-3-pro-preview (linux; x64) google-api-nodejs-client/10.6.1',
+      accept: 'application/json',
+      'x-goog-api-client': 'gl-node/24.14.0'
+    },
+    responseType: 'json',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor],
+    duplex: 'half'
+  },
+  response: Response {
+    size: 0,
+    data: { error: [Object] },
+    config: {
+      url: URL {},
+      method: 'POST',
+      headers: Headers {
+        authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+        'content-type': 'application/json',
+        'User-Agent': 'GeminiCLI/0.31.0/gemini-3-pro-preview (linux; x64) google-api-nodejs-client/10.6.1',
+        accept: 'application/json',
+        'x-goog-api-client': 'gl-node/24.14.0'
+      },
+      responseType: 'json',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor],
+      duplex: 'half'
+    },
+    Symbol(Body internals): {
+      body: [Gunzip],
+      stream: [Gunzip],
+      boundary: null,
+      disturbed: true,
+      error: null
+    },
+    Symbol(Response internals): {
+      type: 'default',
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+      status: 429,
+      statusText: 'Too Many Requests',
+      headers: [Object],
+      counter: 0,
+      highWaterMark: 16384
+    }
+  },
+  code: 429,
+  status: 429,
+  error: undefined,
+  Symbol(gaxios-gaxios-error): '7.1.3',
+  [cause]: {
+    message: 'No capacity available for model gemini-3-flash-preview on the server',
+    code: 429,
+    status: 'RESOURCE_EXHAUSTED',
+    errors: [ [Object] ],
+    details: [ [Object] ]
+  }
+}
+I have analyzed the top 10 stock market losers and their 1-month charts for the requested technical patterns. I will now compile this into the report.
+The analysis of today's top 10 stock market losers has been completed, and the results have been documented in the requested report. The analysis found that while several stocks have experienced significant drops, none currently exhibit confirmed 'U-shaped' or 'Cup and Handle' patterns, with most remaining in a strong bearish phase.
+
+The report has been saved to: `morning_report_2026-03-22_09-35.md`.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
