@@ -10201,3 +10201,19 @@ I have compiled the top 10 stock market losers and their 1-month chart analysis.
 Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 0s.. Retrying after 5846ms...
 The report for April 11, 2026, has been generated and saved to `morning_report_2026-04-11_09-35.md`. The analysis highlights that most of today's top losers are experiencing sharp technical breakdowns, with only **HUBC** showing a potential "U-shaped" (Rounding Bottom) base formation.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 382f761] Auto-Report 2026-04-11_09-35
+ 2 files changed, 39 insertions(+)
+ create mode 100644 morning_report_2026-04-11_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   d8321e1..382f761  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for the top 10 stock market losers as of the most recent trading data and then analyze their 1-month charts for specific patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 6s.. Retrying after 7356ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 1s.. Retrying after 5057ms...
+I will analyze the 1-month charts for the identified top 10 losers to detect 'U-shaped' or 'Cup and Handle' patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5013ms...
+I will now compile the report with the exact time of analysis and the results of the chart pattern analysis for the top 10 losers.
+The top 10 stock market losers for April 10, 2026, have been analyzed, and a technical report, including the 1-month chart pattern analysis and the exact time of analysis (09-35), has been written to `morning_report_2026-04-12_09-35.md`. Most stocks analyzed currently show bearish or breakdown patterns, with HUBC being the only potential candidate for an emerging U-shaped base.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
