@@ -11340,3 +11340,24 @@ I have analyzed the top 10 stock market losers for today, April 14, 2026, and ev
 
 The top 10 stock market losers for today, April 14, 2026, have been analyzed for 1-month technical patterns and the findings have been saved to `morning_report_2026-04-14_09-35.md`. The analysis reveals that the recent sharp price declines have largely invalidated bullish setups across these tickers, with most showing "Waterfall" or "Falling Knife" characteristics rather than the requested "U-shaped" or "Cup and Handle" patterns.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 237d40a] Auto-Report 2026-04-14_09-35
+ 2 files changed, 175 insertions(+)
+ create mode 100644 morning_report_2026-04-14_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   d3b5a39..237d40a  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and analyze their 1-month charts for specific technical patterns.
+
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 2s.. Retrying after 5723ms...
+I will search for the top 10 stock market losers on the NYSE and NASDAQ for April 15, 2026, to provide a more specific list for technical analysis.
+
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 2s.. Retrying after 5970ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 1s.. Retrying after 5697ms...
+I will search for the 1-month technical chart patterns for these stocks to identify any 'U-shaped' or 'Cup and Handle' formations.
+
+I will now create the stock market report, including the top 10 losers, their percentage drops, and the results of the technical pattern analysis for April 15, 2026.
+
+The morning report for April 15, 2026, has been generated and saved to `morning_report_2026-04-15_09-35.md`, detailing the top 10 stock market losers and their 1-month technical patterns.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
