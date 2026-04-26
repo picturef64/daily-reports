@@ -11448,3 +11448,18 @@ I will now search for technical chart analyses of these tickers to identify any 
 I have analyzed the top 10 losers and their 1-month chart patterns. I will now compile this information into the requested report.
 The report for April 25, 2026, at 09-35 has been generated and saved to `morning_report_2026-04-25_09-35.md`. It includes the top 10 stock market losers and a technical analysis of their 1-month chart patterns.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main ec5ac11] Auto-Report 2026-04-25_09-35
+ 2 files changed, 35 insertions(+)
+ create mode 100644 morning_report_2026-04-25_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   9ee9c2d..ec5ac11  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and analyze their recent performance for specific technical patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5959ms...
+I will now investigate the 1-month chart patterns for these tickers to identify any 'U-shaped' or 'Cup and Handle' formations.
+I have analyzed the top 10 stock market losers from the most recent trading session (April 24, 2026) and reviewed their 1-month chart patterns. Most of these stocks are currently experiencing high volatility or sharp declines, with none exhibiting the bullish 'Cup and Handle' or 'U-shaped' recovery patterns at this time.
+
+The morning report for April 26, 2026, has been generated and saved to `morning_report_2026-04-26_09-35.md`. The analysis confirms that the top 10 market losers are currently exhibiting bearish technical patterns such as "Rounding Tops," "Descending Channels," and "Gap Downs," with no 'U-shaped' or 'Cup and Handle' patterns present.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
