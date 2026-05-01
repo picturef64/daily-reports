@@ -14779,3 +14779,46 @@ Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
 }
 The top 10 stock market losers for April 30, 2026, have been identified and analyzed for technical patterns. The report, including the Ticker, % drop, and chart status (highlighting 'U-shaped' and 'Cup and Handle' formations), has been written to `morning_report_2026-04-30_09-35.md`.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 013f365] Auto-Report 2026-04-30_09-35
+ 2 files changed, 1392 insertions(+)
+ create mode 100644 morning_report_2026-04-30_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   554c4c2..013f365  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and analyze their 1-month charts for 'U-shaped' or 'Cup and Handle' patterns.
+
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 6s.. Retrying after 7364ms...
+I will now search for the 1-month price history and technical analysis for these 10 stocks to identify any 'U-shaped' or 'Cup and Handle' patterns.
+
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 7s.. Retrying after 8181ms...
+I will now refine my search to get the 1-month chart technical analysis for the specific London and AIM-listed companies identified as today's top losers.
+
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5401ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5487ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5058ms...
+Attempt 2 failed: You have exhausted your capacity on this model. Your quota will reset after 7s.. Retrying after 11431ms...
+Attempt 2 failed: You have exhausted your capacity on this model. Your quota will reset after 7s.. Retrying after 10794ms...
+Attempt 3 failed: You have exhausted your capacity on this model. Your quota will reset after 6s.. Retrying after 21305ms...
+I have gathered the top 10 stock market losers for today, May 1, 2026, and analyzed their 1-month charts for 'U-shaped' or 'Cup and Handle' patterns.
+
+### Top 10 Stock Market Losers (May 1, 2026)
+
+| Ticker | % Drop (Today) | Technical Status (1-Month Analysis) |
+| :--- | :--- | :--- |
+| **API** | -43.37% | **Pattern Failure:** Sharp breakdown today from a previous bullish consolidation zone. |
+| **GNIP** | -40.00% | **Bearish:** Reversal from a recovery base; failed to sustain the late April breakout. |
+| **GEX** | -19.18% | **Speculative/Volatile:** High volatility with a failure to form a stable base at 4.00p. |
+| **MPO** | -18.31% | **Bearish:** Breach of 4.80p support; no clear bottoming pattern identified. |
+| **NFM** | -17.65% | **U-Shaped Base Attempt:** Testing historical lows; deeply oversold with potential for a base formation. |
+| **BMV** | -16.67% | **Bearish:** Continued downtrend below all major moving averages. |
+| **0QGU** | -13.58% | **Consolidation:** Pulling back within a broader bearish consolidation phase. |
+| **STX** | -13.14% | **Reversal:** Sudden bearish reversal following leadership changes, breaking the April uptrend. |
+| **PRO** | -9.59% | **Falling Knife:** Continued downward momentum with no U-shaped recovery in sight. |
+| **EOG** | -9.09% | **Potential Cup and Handle:** Pullback to 1.50p support after a strong April rally; potential 'Handle' formation. |
+
+I will now write this report to `morning_report_2026-05-01_09-35.md`.
+
+The report for today's top 10 stock market losers has been generated. The analysis identifies **EOG** as a potential 'Cup and Handle' formation and **NFM** as an emerging 'U-shaped' base. The full details have been written to `morning_report_2026-05-01_09-35.md`.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
