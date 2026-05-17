@@ -15300,3 +15300,22 @@ I have identified the top 10 losers and their general 1-month trends. I will now
 I will now generate the report and save it to `morning_report_2026-05-16_09-35.md`, including the top 10 losers, their percentage drops, and an analysis of their 1-month chart patterns.
 The report for May 16, 2026, has been generated and saved to `morning_report_2026-05-16_09-35.md`. The analysis highlights that while most of the top losers have experienced technical breakdowns, **Coinbase (COIN)** and **Sabre (SABR)** still show remnants of long-term 'U-shaped' recovery structures, though they are currently under significant pressure.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main 4603b16] Auto-Report 2026-05-16_09-35
+ 2 files changed, 38 insertions(+)
+ create mode 100644 morning_report_2026-05-16_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   09df042..4603b16  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will start by searching for the top 10 stock market losers for today, May 17, 2026.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 5s.. Retrying after 5908ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 2s.. Retrying after 5947ms...
+I will now analyze the 1-month charts for the identified top 10 losers to search for 'U-shaped' or 'Cup and Handle' patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5060ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5056ms...
+Attempt 2 failed: You have exhausted your capacity on this model. Your quota will reset after 7s.. Retrying after 10252ms...
+I have gathered the top 10 stock market losers for May 17, 2026, and analyzed their 1-month charts for technical patterns. I will now write the report to `morning_report_2026-05-17_09-35.md`.
+
+The report for the top 10 stock market losers on May 17, 2026, including 1-month chart pattern analysis for 'U-shaped' and 'Cup and Handle' formations, has been generated and saved to `morning_report_2026-05-17_09-35.md`.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
