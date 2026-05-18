@@ -15319,3 +15319,38 @@ I have gathered the top 10 stock market losers for May 17, 2026, and analyzed th
 
 The report for the top 10 stock market losers on May 17, 2026, including 1-month chart pattern analysis for 'U-shaped' and 'Cup and Handle' formations, has been generated and saved to `morning_report_2026-05-17_09-35.md`.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main b71080c] Auto-Report 2026-05-17_09-35
+ 2 files changed, 40 insertions(+)
+ create mode 100644 morning_report_2026-05-17_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   4603b16..b71080c  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and then analyze their 1-month charts for specific patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 6s.. Retrying after 7172ms...
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5322ms...
+I will now investigate the 1-month price performance and chart patterns for these 10 stocks to identify any 'U-shaped' or 'Cup and Handle' formations.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 3s.. Retrying after 5150ms...
+I have compiled the top 10 stock market losers for today, May 18, 2026, and analyzed their 1-month chart patterns for 'U-shaped' or 'Cup and Handle' formations.
+
+```md
+# Morning Market Report - 2026-05-18 09:35
+
+| Ticker | % Drop | Status (Pattern Analysis) |
+| :--- | :--- | :--- |
+| KEC | -10.68% | **Bearish Breakdown**: Sharp downtrend; no U-shaped or Cup and Handle pattern detected. |
+| REGN | -10.50% | **Descending Channel**: Sustained selling pressure; bearish structure. |
+| HSCL | -7.53% | **Ascending Triangle**: Bullish structure remains intact despite today's sharp profit-booking. |
+| PGEL | -5.67% | **Bearish Continuation**: Trading below all major moving averages; negative momentum. |
+| KAYNES | -5.19% | **Free Fall**: Hit new 52-week lows; no base formation visible. |
+| UNH | -4.80% | **U-Shaped Recovery**: Significant recovery from April lows; today's drop suggests a pullback from overbought levels. |
+| MSTR | -4.20% | **Bearish Divergence**: Weekly breakout present, but daily chart shows warning signs of a top. |
+| TATASTEEL | -3.15% | **Potential Cup and Handle**: Consolidating near highs post-breakout; current dip may form the 'Handle'. |
+| POWERGRID | -2.93% | **Bullish Momentum**: Approaching 52-week highs; technical indicators remain positive. |
+| NTPC | -2.62% | **Range-Bound**: Attempting to break major resistance; currently forming a wide base. |
+```
+
+I'll write this to the file `morning_report_2026-05-18_09-35.md`.
+I have generated the morning report for May 18, 2026, featuring the top 10 stock market losers and their 1-month chart pattern analysis. The report is saved in `morning_report_2026-05-18_09-35.md`.
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
