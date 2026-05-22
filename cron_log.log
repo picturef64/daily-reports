@@ -15646,3 +15646,19 @@ I've analyzed the top 10 stock market losers for today, May 21, 2026, focusing o
 I will now save this report.
 The top 10 stock market losers for May 21, 2026, have been analyzed for 'U-shaped' and 'Cup and Handle' patterns. The findings, including tickers, percentage drops, and technical statuses, have been compiled into `morning_report_2026-05-21_09-35.md`. Notable patterns include a Cup and Handle for WMT and a U-shaped bottoming process for INFY.
 GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[main cd8433d] Auto-Report 2026-05-21_09-35
+ 2 files changed, 241 insertions(+)
+ create mode 100644 morning_report_2026-05-21_09-35.md
+To https://github.com/picturef64/daily-reports.git
+   6431c8e..cd8433d  main -> main
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+I will search for today's top 10 stock market losers and analyze their 1-month charts for technical patterns.
+Attempt 1 failed: You have exhausted your capacity on this model. Your quota will reset after 5s.. Retrying after 5959ms...
+I will now research the 1-month stock price trends for these companies to identify potential 'U-shaped' or 'Cup and Handle' patterns.
+I will check for 'U-shaped' or 'Cup and Handle' patterns in the 1-month charts of the identified top losers to provide a more accurate status report.
+I have analyzed the top 10 stock market losers for May 22, 2026, and identified their 1-month chart patterns, specifically looking for 'U-shaped' or 'Cup and Handle' formations.
+
+The analysis of today's top 10 stock market losers and their 1-month chart patterns has been completed and recorded in `morning_report_2026-05-22_09-35.md`. The report highlights several technical formations, including a potential "Cup and Handle" for Welspun Corp and an "Inverse Head & Shoulders" for Narayana Hrudayalaya, amidst a broader sector-specific sell-off.
+Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
